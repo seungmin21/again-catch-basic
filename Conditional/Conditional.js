@@ -31,3 +31,9 @@ if (number % 2 === 0) {
 } else {
     console.log(number, "홀수입니다.")
 }
+
+if (number > 10 && number === 19) {
+    console.log("모든 조건과 일치합니다.")
+} else {
+    console.log("한개의 조건이 일치하지 않습니다.")
+}
