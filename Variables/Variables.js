@@ -1,8 +1,15 @@
 // const, let, var
 
-const name = "Oh";
-const age = 29;
-const height = 172;
+// const name = "Oh";
+let name = "Oh";
+// const age = 29;
+let age = 29;
+// const height = 172;
+let height = 172;
+
+name = "ohmin";
+age = 28;
+height = 171;
 
 console.log("Name:", name);
 console.log("Age:", age);
