@@ -33,3 +33,15 @@ def dataType(every):
 every = "문장"
 print(dataType(every))
 
+def neuron(input, weight, threshold):
+    sum = input * weight
+    if (sum > threshold):
+        return "정답"
+    else:
+        return "틀림"
+
+input = 0.5
+weight = 0.5
+threshold = 0.5
+results = neuron(input, weight, threshold)
+print(results)
