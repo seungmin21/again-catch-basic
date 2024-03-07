@@ -4,9 +4,12 @@ number = 19
 
 result = function
 function = parameter
-
 parameter = result
 
-print(function)
-print(parameter)
-print(number)
+
+print("Function:", function)
+print("Parameter:", parameter)
+print("Number:", number)
+# print(function)
+# print(parameter)
+# print(number)
