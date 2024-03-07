@@ -25,3 +25,9 @@ if (number > 0) {
 } else {
     console.log("Negative number")
 }
+
+if (number % 2 === 0) {
+    console.log(number, "짝수입니다.")
+} else {
+    console.log(number, "홀수입니다.")
+}
