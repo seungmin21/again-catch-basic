@@ -40,8 +40,16 @@ def neuron(input, weight, threshold):
     else:
         return "틀림"
 
-input = 0.5
-weight = 0.5
+input = 0.7
+weight = 0.8
 threshold = 0.5
 results = neuron(input, weight, threshold)
 print(results)
+
+def notParameter():
+    plus = 0.8 * 0.8
+    if (plus > 0.5):
+        return "정답"
+    else:
+        return "틀림"
+print(notParameter())
